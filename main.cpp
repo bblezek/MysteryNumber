@@ -16,7 +16,7 @@ int main() {
 
     //Trying findX on a longer list
     length = 16;
-    int listTwo[] = {8,6,7,5,3,0,9,11,13,17,3,2,15,10,12,1};
+    int listTwo[] = {8,6,7,5,3,0,9,11,13,17,4,2,15,10,12,1};
     returnList = findX(listTwo, length, x);
     if(returnList[0] == x) {
         std::cout << x << " was found in list ";
